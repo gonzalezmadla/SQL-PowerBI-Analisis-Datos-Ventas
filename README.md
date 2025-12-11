@@ -18,7 +18,8 @@ Buscando demostrar habilidades técnicas en SQL, buenas prácticas de modelado y
 - Archivos CSV como fuente de datos
 
 ## Origen y modelado de datos
-Los datos utilizados en este proyecto provienen de "Datasets para Proyecto BI - Análisis de Ventas", disponible en Kaggle en formato CSV, públicamente en el siguiente enlace:
+Los datos utilizados en este proyecto provienen de "Datasets para Proyecto BI - Análisis de Ventas", disponible en Kaggle en formato CSV y públicamente en el siguiente enlace:
+
 https://www.kaggle.com/datasets/dataregina/datasets-para-proyecto-bi
 
 El dataset incluye información de:
@@ -45,7 +46,7 @@ Con relaciones que garantizan integridad y trazabilidad:
 
 ## Desarrollo y análisis del proyecto
 
-Este proyecto abarcó un flujo completo de trabajo en SQL, desde el modelado inicial hasta la generación de insights finales para el negocio. Las principales etapas fueron:
+Se realizó un flujo completo de trabajo en SQL, desde el modelado inicial hasta la generación de insights finales para el negocio. Las principales etapas fueron:
 
 1. Modelado y construcción de la base de datos
 
@@ -111,3 +112,31 @@ Este proyecto abarcó un flujo completo de trabajo en SQL, desde el modelado ini
 
     - Ventas realizadas con stock insuficiente.
 
+## Información relevante obtenida 
+1. Categorías más vendidas:
+Las categorías con mayor volumen de ventas fueron Carnicería, Lácteos y Congelados.
+
+    *Acción sugerida*: utilizar estas categorías como impulso para aumentar la rotación de categorías con menor demanda mediante promociones cruzadas o descuentos combinados.
+
+2. Productos con mayor demanda:
+Los productos más vendidos fueron Hamburguesas congeladas, Agua mineral y Cervezas.
+
+    *Acción sugerida: establecer controles más estrictos de stock para estos productos, asegurando niveles mínimos para evitar quiebres durante picos de demanda.
+
+3. Clientes de alto valor:
+Los clientes con mayor volumen de compras fueron Stollsteiner Pinchas, Dan Judah y Hellens Eben.
+
+    *Acción sugerida*: implementar estrategias de retención y fidelización, como beneficios exclusivos, descuentos personalizados o campañas de marketing directo.
+
+4. Estacionalidad de ventas:
+Los meses con mayor facturación fueron junio, marzo y diciembre, lo que revela patrones estacionales en el comportamiento del consumidor.
+
+    *Acción sugerida*: reforzar personal y stock temporal en estos periodos para atender eficientemente la mayor demanda.
+
+5. Gestión de stock y alertas:
+El análisis de inventario permitió identificar productos con bajo stock o riesgo de ruptura.
+
+    *Acción sugerida*: implementar alertas automáticas de reposición y revisar la rotación por categoría para optimizar la planificación de compras.
+
+## Conclusiones Finales
+Este proyecto permitió obtener información significativa para el negocio mediante la creación de una base de datos solida a partir del modelado, limpieza y análisis de datos en SQL. En síntesis, el proyecto demuestra la capacidad de transformar datos crudos en conocimiento útil para la toma de decisiones.
