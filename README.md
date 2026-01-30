@@ -151,10 +151,16 @@ Se realizó un flujo completo de trabajo en **SQL**, desde el modelado inicial h
         * Facturación e inactividad
         * Cartera total de clientes
 
-## Métricas y KPIs en Power BI
+## Modelado, métricas y KPIs en Power BI
 
-A partir del modelo relacional construido en SQL, y con el objetivo de visualizar los resultados obtenidos, se desarrollaron dashboards en Power BI, donde se crearon diversas **medidas DAX** para generar indicadores clave del negocio.
+A partir del modelo relacional construido en SQL, y con el objetivo de visualizar los resultados obtenidos, se desarrollaron dashboards en Power BI. Para ello, se crearon diversas **medidas DAX** orientadas a generar indicadores clave del negocio.
 
+### Modelado de datos
+
+Se implementó un esquema tipo estrella, donde la tabla de hechos **Ventas** se relaciona con las tablas de dimensiones **Productos**, **Clientes**, **Categoría**, **Calendario** y **Método de Pago**.
+Este enfoque permite un correcto flujo de filtros, mejor rendimiento del modelo y mayor claridad analítica.
+
+![Modelado](imagenes/Modelado.png)
 
 ### Página: Ventas 2024 
 Métricas orientadas a analizar el volumen de ventas, facturación y comportamiento general del negocio.
