@@ -165,7 +165,7 @@ Este enfoque permite un correcto flujo de filtros, mejor rendimiento del modelo 
 ### Página: Ventas 2024 
 Métricas orientadas a analizar el volumen de ventas, facturación y comportamiento general del negocio.
 
-![Ventas 2024](Imagenes/ventas2024.png)
+![Ventas 2024](Imagenes/Ventas2024.png)
 **1. MB_Cantidad ventas realizadas**: Cuenta el total de ventas registradas
 
 ```
