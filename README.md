@@ -160,12 +160,12 @@ A partir del modelo relacional construido en SQL, y con el objetivo de visualiza
 Se implementó un esquema tipo estrella, donde la tabla de hechos **Ventas** se relaciona con las tablas de dimensiones **Productos**, **Clientes**, **Categoría**, **Calendario** y **Método de Pago**.
 Este enfoque permite un correcto flujo de filtros, mejor rendimiento del modelo y mayor claridad analítica.
 
-![Modelado](imagenes/Modelado.png)
+![Modelado](Imagenes/Modelado.png)
 
 ### Página: Ventas 2024 
 Métricas orientadas a analizar el volumen de ventas, facturación y comportamiento general del negocio.
 
-![Ventas 2024](imagenes/ventas2024.png)
+![Ventas 2024](Imagenes/ventas2024.png)
 **1. MB_Cantidad ventas realizadas**: Cuenta el total de ventas registradas
 
 ```
@@ -202,7 +202,7 @@ Métricas orientadas a analizar el volumen de ventas, facturación y comportamie
 ### Página: Productos e Inventario
 Métricas enfocadas en el control de stock, volumen de productos vendidos y alertas de inventario.
 
-![Productos e Inventario](imagenes/Productos_Inventario.png)
+![Productos e Inventario](Imagenes/Productos_Inventario.png)
 **1. MB_Total unidades vendidas**: Suma la cantidad total de productos vendidos.  
 
 ```
@@ -214,7 +214,7 @@ Métricas enfocadas en el control de stock, volumen de productos vendidos y aler
 ### Página: Análisis de Clientes
 Indicadores relacionados con el comportamiento de los clientes y calidad de los datos.
 
-![Análisis de Clientes](imagenes/Análisis_Clientes.png)
+![Análisis de Clientes](Imagenes/Análisis_Clientes.png)
 **1. MB_Clientes únicos**:Cuenta la cantidad de clientes distintos que realizaron compras.  
 
 ```
